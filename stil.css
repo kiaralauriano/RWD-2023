@@ -116,7 +116,7 @@ Navbar
 Home 
 --------------------------------- */
 #home {
-    background-image: url("pictures/Thumbnail_gross.png");
+    background-image: url("pictures/thumbnail-klein.png");
     height: calc(100vh - 92px);
     background-repeat: no-repeat;
     background-position: center;
