@@ -116,7 +116,7 @@ Navbar
 Home 
 --------------------------------- */
 #home {
-    background-image: url("pictures/obsneu.png");
+    background-image: url("pictures/Thumbnail_gross.png");
     height: calc(100vh - 92px);
     background-repeat: no-repeat;
     background-position: center;
@@ -383,6 +383,10 @@ Responsive Bilder
 --------------------------------- */
 
 @media screen and (max-width: 900px) {
+
+    #home {
+        background-image: url("pictures/Thumnail_klein.jpg");
+    }
     .erstes_Bild img {
         width: 80%;
         
@@ -403,6 +407,7 @@ Responsive Bilder
 }
 
 @media screen and (max-width: 600px) {
+
 
     .zweites_Bild img {
         width: 60%;
